@@ -15,11 +15,14 @@ body{
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
-
+}
+.wrap{
+    height: 100vh;
 }
 header,
-.starter{
-    padding: 1.2rem 8rem;
+.starter,
+.mainOne{
+    padding: 4rem 15rem; 
 }
 
 header{
@@ -36,7 +39,8 @@ header h3{
 header,
 header ul,
 .starter,
-.placeholderImage{
+.placeholderImage,
+.mainOne{
     display: flex;
 }
 
@@ -52,7 +56,8 @@ header a{
 .starter{
     background-color: var(--darkBlue);
     height: 40rem;
-    /* justify-content: center; */
+    justify-content: space-between;
+    padding-top: 6rem;
 }
 .starter .title h1{
     color:var(--white)
@@ -64,6 +69,15 @@ header a{
 .title{
     width: 50%;
 }
+ button{
+    background-color: var(--lightBlue);
+    height: 3rem;
+    width: 10rem;
+    color: var(--white);
+    border-radius: 8px;
+    border: none;
+    margin-top: 2rem;
+}
 .placeholderImage{
     height: 25rem;
     width: 40%;
@@ -72,3 +86,4 @@ header a{
     justify-content: center;
     align-items: center;
 }
+/* .mainOne */
